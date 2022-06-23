@@ -3,6 +3,7 @@ package monitoring.and.evaluation;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
@@ -20,5 +21,7 @@ public class MainActivity extends AppCompatActivity {
         EditText password = (EditText) findViewById(R.id.password);
         MaterialButton  loginbtn = (MaterialButton) findViewById(R.id.loginbtn);
         TextView forgotpass = (TextView) findViewById(R.id.forgotpass);
+
+
     }
 }
